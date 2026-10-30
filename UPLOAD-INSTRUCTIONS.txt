@@ -1,0 +1,87 @@
+NINJA AXOLOTL — GITHUB UPLOAD AND PUBLISHING
+
+This folder contains the complete game. No installation or build is needed.
+
+1. OPEN YOUR REPOSITORY
+Sign in to GitHub and open the repository you already created. Open its Code tab.
+For free GitHub Pages on GitHub Free, the repository needs to be public.
+
+2. START THE UPLOAD
+Select Add file > Upload files. If the repository is completely empty, use the
+“uploading an existing file” link in its setup instructions.
+
+3. SELECT THE CONTENTS OF THIS FOLDER
+Open the GitHub-Upload folder in Finder. Select everything inside it (Command+A)
+and drag the selection into GitHub's upload area. Include the assets folder.
+Do NOT drag the enclosing GitHub-Upload folder itself. Keep the assets folder
+intact; do not upload the images loose into the repository root.
+Do not upload the older Ninja Axolotl.html single-file export or a ZIP archive.
+
+4. CHECK THE UPLOAD LIST
+At the top level you should have:
+  index.html
+  styles.css
+  cards.js
+  rules.js
+  game.js
+  app.js
+  tests.js
+  README.md
+  UPLOAD-INSTRUCTIONS.txt
+  assets/   (contains 1.png, 2.png, 3.png, 4.png, 7.png, 13.png)
+
+The uploaded image paths should read assets/1.png, assets/2.png, etc.
+They should NOT start with GitHub-Upload/.
+
+5. SAVE THE FILES TO GITHUB
+Enter a commit message such as “Add Ninja Axolotl playable prototype”.
+For an initial upload to your own unprotected repository, choose to commit
+directly to main when offered, and click Commit changes (or the equivalent
+save button). If GitHub instead requires a new branch, create it, open the
+pull request, and merge it into your default branch before continuing.
+Wait for the upload and save to finish.
+
+6. ENABLE GITHUB PAGES
+Open the repository's Settings tab, then Pages in the left sidebar.
+Under Build and deployment:
+  Source: Deploy from a branch
+  Branch: main (or your actual default branch containing the uploaded files)
+  Folder: / (root)
+Click Save.
+
+7. OPEN YOUR GAME
+Wait for publication to complete. Refresh Settings > Pages and use its
+Visit site link or displayed site address. Deployment progress also appears
+in the Actions tab.
+A project site's address usually looks like:
+  https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/
+Use the address GitHub actually displays. The github.com repository address
+shows source files; the github.io address opens the game.
+
+8. CHECK THE PUBLISHED GAME
+Open Play. Select three fighters for each player and mark a starter for each.
+Choose Odd or Even, roll, and enter the arena. Check that images display,
+turns work, and the opening player cannot attack on their first turn.
+Try it on a phone as well. Rules settings are saved per browser when supported;
+they are not shared between devices. Two people play on the same device.
+
+9. OPTIONAL: ADD TO GOOGLE SITES
+In your Google Site, select Pages > + > Full page embed.
+Paste the published github.io game address, insert it, and publish the Site.
+Also add a normal link to open the game separately if desired.
+
+UPDATES
+Upload only changed files to the same repository paths and commit the changes.
+GitHub Pages will republish. Do not add a second enclosing upload folder.
+
+TROUBLESHOOTING
+404: Confirm index.html is at the repository root and Pages points to the
+branch containing it and / (root). Check Actions for deployment errors.
+Missing pictures: Confirm assets/ exists with its six PNG files and filenames
+match exactly, including letter case.
+Pages unavailable: Check repository visibility and your account's plan.
+Old version: Wait for the deployment to succeed, then refresh the browser.
+
+Official references:
+https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository
+https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
